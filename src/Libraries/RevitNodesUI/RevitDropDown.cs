@@ -210,6 +210,7 @@ namespace DSRevitNodesUI
 
         private Element GetInputElement()
         {
+            /*
             var inputNode = InPorts[0].Connectors[0].Start.Owner;
             var index = InPorts[0].Connectors[0].Start.Index;
             
@@ -226,6 +227,9 @@ namespace DSRevitNodesUI
                 return null;
 
             return elem.InternalElement;
+             */
+
+            return null;
         }
 
         protected override void SerializeCore(XmlElement nodeElement, SaveContext context)
